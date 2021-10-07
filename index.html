@@ -2,7 +2,7 @@
 <html>
 <head>
 
-  <title>Wealth, shown to scale</title>
+  <title>سرمایه در مقیاس پیکسل</title>
   <meta name="description" content="Inequality in the United States is out of control. Here we visualize the issue in a unique way." />
 
   <meta name="twitter:card" content="summary_large_image">
@@ -17,6 +17,16 @@
   <meta property="og:description" content="Wealth inequality in the United States is out of control. Here we visualize the issue in a unique way." />
   <meta property="og:image" content="https://mkorostoff.github.io/1-pixel-wealth/img/off-the-chart.png" />
 
+  <style>
+    @font-face {
+    font-family: Vazir;
+    src: url('/Vazir.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+    body,h1,h2,h3,h4,h5,h6,div,p {font-family: Vazir}
+  </style>
+
   <link rel="stylesheet" type="text/css" href="main.css?version=1.9">
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
 </head>
@@ -25,10 +35,10 @@
   <div class="wealth-wrapper-outer">
     <div class="wealth-row wealth-row-one">
       <div class="title-screen">
-        <h1>Wealth shown to scale</h1>
+        <h1>سرمایه در مقیاس پیکسل</h1>
         <div class="scroll-this-way">
-          <span>scroll right</span>
-          <div id="instructions" class="instructions">To scroll right, use shift + mousewheel. If you have a touchpad, swipe sideways.</div>
+          <span>به راست بکشید</span>
+          <div id="instructions" class="instructions">به کمک شیفت و چرخ موس، کلید راست در صفحه کلید یا کشیدن به راست در صفحه های لمسی</div>
         </div>
       </div>
       <div class="wealth-wrapper">
@@ -42,130 +52,133 @@
       </div>
 
       <div class="wealth-wrapper median">
-        <h2 class="wealth-title">$68,000 <span class="explainer">(Median US household income)</span></h2>
+        <h2 class="wealth-title">$68,000 <span class="explainer">(متوسط درآمد یک خانواده امریکایی در سال)</span></h2>
         <div class="wealth median-income"></div>
       </div>
 
       <div class="wealth-wrapper million">
-        <h2 class="wealth-title">$1 million</h2>
+        <h2 class="wealth-title">$1,000,000</h2>
         <div class="wealth"></div>
       </div>
 
       <div class="wealth-wrapper billion">
         <div class="wealth">
-          <h2 class="wealth-title">$1 billion</h2>
+          <h2 class="wealth-title">$1,000,000,000</h2>
         </div>
       </div>
 
       <div name="bezos" class="wealth-wrapper bezos">
         <div id="bezos" class="wealth ruler">
-          <h2 class="wealth-title">$185 billion (wealth of Jeff Bezos)</h2>
+          <h2 class="wealth-title">$185,000,000,000 (سرمایه جف بزوس)</h2>
           <div class="counter" id="bezos-counter"></div>
           <div class="key">
-            <span>$80 million</span>
+            <span>$80,000,000</span>
           </div>
 
           <div class="text-infobox infobox first">
-            <div class="title">Jeff is so wealthy, that it is quite literally unimaginable.</div>
+            <div class="title">جف آنقدر ثروت مند است، که ثروت او تقریبا غیر قابل تصور است!</div>
           </div>
 
           <div class="text-infobox infobox">
-            <div class="title">We rarely see wealth inequality represented to scale. This is part of the reason Americans <a href="https://www.ncbi.nlm.nih.gov/pubmed/26162108" target="_blank">consistently under-estimate</a> the relative wealth of the super rich.</div>
+            <div class="title">ما معمولا نابرابری ثروت را در چنین نموداری نمی بینیم. به همین دلیل است که
+              <a href="https://www.ncbi.nlm.nih.gov/pubmed/26162108" target="_blank">امریکایی ها ثروت نسبی ابرثروتمندان را دست کم می گیرند</a>
+            </div>
           </div>
 
           <div class="five-pixels text-infobox infobox-half infobox">
-            <div class="title">Every 10 pixels you scroll is $5 million.</div>
+            <div class="title">هر ده پیکسل که اسکرول می کنید معادل $5,000,000 است.</div>
           </div>
 
           <div class="coming-up text-infobox infobox">
-            <div class="title">OK, we're coming up on the end now.</div>
+            <div class="title">خب، بلاخره داریم به آخرش می رسیم.</div>
           </div>
 
           <div class="text-infobox infobox">
             <div id="bezos-counter-start" class="title">
-              <p>Lol, just kidding, we're about a third of the way. Keep scrolling though, there's more to see.</p>
+              <p>هه، شوخی کردم! تازه یک سومش رو رفتیم. ولی به اسکرول کردن ادامه بدید. چیزای
+                بیشتری برای دیدن وجود داره.
+              </p>
             </div>
           </div>
 
-
           <div class="text-infobox infobox infobox-half">
-            <div class="title">Let's put this wealth in perspective by comparing it to some familiar things.</div>
+            <div class="title">بیایید این سرمایه را با یه سری چیز آشنا مقایسه کنیم.</div>
           </div>
 
           <div class="infobox infobox-half lifetime">
             <div class="title-square-wrapper">
-              <div class="title">All the money you will ever earn in your entire life from the day you are born until the day you die (about $1.7 million)</div>
+              <div class="title">حداکثر پولی که شما (به عنوان یک انسان عادی در ایران) در کل زندگی به دست خواهید آورد</div>
               <div class="square"></div>
             </div>
           </div>
 
           <div class="infobox infobox-half healthcare">
             <div class="title-square-wrapper">
-              <div class="title">Annual cost of health care for a family of four</div>
+              <div class="title">هزینه سالانه بهداشت و درمان برای یک خانواده چهار نفره</div>
               <div class="square"></div>
             </div>
           </div>
 
           <div class="infobox infobox-half amazon-year">
             <div class="title-square-wrapper">
-              <div class="title">Annual pay of an Amazon warehouse worker.</div>
+              <div class="title">دستمزد یک سال یک کارگر انبار آمازون</div>
               <div class="square"></div>
             </div>
           </div>
 
           <div class="infobox infobox-half year-veteran">
             <div class="square shadow">
-              <div class="title">Annual cost to house every homeless veteran.</div>
+              <div class="title">هزینه سالانه اسکان تمام کهنه سربازان بی خانمان امریکا</div>
             </div>
           </div>
 
           <div class="infobox infobox-half year-chemo">
             <div class="square shadow">
-              <div class="title">Annual cost of chemotherapy for all cancer patients ($9 billion)</div>
+              <div class="title">هزینه سالانه شیمی درمانی برای تمام بیماران سرطانی ($9,000,000,000)</div>
               <div class="midtext-wrapper">
-                <div class="midtext">On July 20th 2020 Jeff Bezos made <a href="https://www.cnbc.com/2020/07/21/bezos-record-multibillion-dollar-net-worth-gain-bloomberg.html" target="_blank">$13 billion</a> in a single day.</div>
+                <div class="midtext">در 30 تیر 1399 جف بزوس <a href="https://www.cnbc.com/2020/07/21/bezos-record-multibillion-dollar-net-worth-gain-bloomberg.html" target="_blank">$13,000,000,000</a> در یک روز به چنگ آورد.</div>
               </div>
             </div>
           </div>
 
           <div class="infobox infobox-half text-infobox">
             <div class="title">
-              <p>Even the fortunes of very rich people are dwarfed by the incomprehensible wealth of the 0.0001%.</p>
+              <p>حتی ثروت افراد خیلی ثروتمند نیز در برابر سرمایه غیرقابل درک 0.0001% ثروتمند ترین مردم، ناچیز و در حد صفر است.</p>
             </div>
           </div>
 
           <div class="infobox infobox-quarter celebrities">
             <div class="column-infobox">
               <div class="sub-infobox goldman">
-                <div class="title">Wealth of Goldman Sachs CEO David Solomon ($50 million)</div>
+                <div class="title">سرمایه گلدمن ساکس، مدیر عامل دیوید سالومون ($50,000,000)</div>
                 <div class="square shadow"></div>
               </div>
 
             </div>
             <div class="sub-infobox beyonce">
-              <div class="title">Wealth of Beyonc&eacute; ($400 million)</div>
+              <div class="title">سرمایه بیانسه، خواننده و بازیگر ($400,000,000)</div>
               <div class="square shadow"></div>
             </div>
 
             <div class="sub-infobox tim-cook">
-              <div class="title">Wealth of Apple CEO Tim Cook ($625 million)</div>
+              <div class="title">سرمایه تیم کوک، مدیرعامل اپل ($625,000,000)</div>
               <div class="square shadow"></div>
             </div>
 
             <div class="column-infobox">
               <div class="sub-infobox doctor small">
-                <div class="title">Lifetime earnings of a doctor, on average ($6.7 million)</div>
+                <div class="title">درآمد متوسط یک دکتر در امریکا در طول عمر ($6,700,000)</div>
                 <div class="square shadow"></div>
               </div>
 
               <div class="sub-infobox lawyer small">
-                <div class="title">Lifetime earnings of a lawyer, on average ($4 million)</div>
+                <div class="title">درآمد متوسط یک وکیل در امریکا در طول عمر ($4,000,000)</div>
                 <div class="square shadow"></div>
               </div>
             </div>
 
             <div class="sub-infobox hedgefund">
-              <div class="title">Lifetime earnings of a hedge fund manager, on average ($84 million)</div>
+              <div class="title">درآمد متوسط یک مدیر صندوق سرمایه گذاری در امریکا در طول عمر ($84,000,000)</div>
               <div class="square shadow"></div>
             </div>
 
@@ -173,13 +186,17 @@
 
           <div class="infobox infobox-close text-infobox">
             <div class="title">
-              <p>These people may see themselves as fabulously rich, and often oppose policies aimed at reducing inequality.</p>
+              <p>این افراد ممکن است خود را به عنوان یک ثروتمند افسانه ای ببینند، و معمولا در امریکا
+                چنین افرادی با قوانین مالیات و سیاست های کاهش نابرابری مخالفت می کنند.
+              </p>
             </div>
           </div>
 
           <div class="infobox infobox-close text-infobox">
             <div class="title">
-              <p>But many have not fully grasped the enormous gulf between themselves and the super rich.</p>
+              <p>
+                اما بسیاری از آن ها از فاصله به اندازه اقیانوس خود با ابرثروتمندان آگاه نیستند.
+              </p>
             </div>
           </div>
 
@@ -213,13 +230,13 @@
                         <title>Layer 1</title>
                         <g id="Graphic_3">
                           <text class="desktop-zuck" transform="translate(715.2031 353.7383)" fill="black">
-                            <tspan font-family="Arial" font-size="16" font-weight="400" fill="black" x="2.2226562" y="14">Mark Zuckerberg </tspan>
-                            <tspan class="zuck-wealth" font-family="Arial" font-size="12" font-weight="400" fill="black" x="26.663086" y="28.523438">($108 billion)</tspan>
+                            <tspan font-family="Arial" font-size="16" font-weight="400" fill="black" x="2.2226562" y="14">Mark Zuckerburg </tspan>
+                            <tspan class="zuck-wealth" font-family="Arial" font-size="12" font-weight="400" fill="black" x="26.663086" y="28.523438">($108,000,000,000)</tspan>
                           </text>
                           <text class="mobile-zuck" transform="translate(668 353.7383)" fill="black">
                             <tspan class="zuck-name" font-family="Arial" font-size="16" font-weight="400" fill="black" x="55.36719" y="14">Mark </tspan>
-                            <tspan class="zuck-name" font-family="Arial" font-size="16" font-weight="400" fill="black" x="12" y="41.523438">Zuckerberg </tspan>
-                            <tspan class="zuck-wealth" font-family="Arial" font-size="12" font-weight="400" fill="black" x="21.880859" y="67.046875">($108 billion)</tspan>
+                            <tspan class="zuck-name" font-family="Arial" font-size="16" font-weight="400" fill="black" x="12" y="41.523438">Zuckerburg </tspan>
+                            <tspan class="zuck-wealth" font-family="Arial" font-size="12" font-weight="400" fill="black" x="21.880859" y="67.046875">($108,000,000,000)</tspan>
                           </text>
                         </g>
                         <g id="Graphic_5">
@@ -229,7 +246,7 @@
                         </g>
                         <g id="Graphic_9">
                           <text transform="translate(155 281.5)" fill="black">
-                            <tspan class="two-hundred-million" font-family="Arial" font-size="16" font-weight="400" fill="black" x="0" y="14">$200 million</tspan>
+                            <tspan class="two-hundred-million" font-family="Arial" font-size="16" font-weight="400" fill="black" x="0" y="14">$200,000,000</tspan>
                           </text>
                         </g>
                         <g id="Line_10">
@@ -243,21 +260,21 @@
                   </svg>
                 </div>
                 <div id="ok-zoomer">
-                  <a class="zoom-in" onclick="toggleZoom()" href="javascript:;">Zoom In</a>
-                  <a class="zoom-out" onclick="toggleZoom()" href="javascript:;">Zoom Out</a>
+                  <a class="zoom-in" onclick="toggleZoom()" href="javascript:;">بزرگ‌نمایی</a>
+                  <a class="zoom-out" onclick="toggleZoom()" href="javascript:;">کوچک‌نمایی</a>
                 </div>
               </div>
             </div>
 
             <div class="infobox infobox-close text-infobox">
               <div class="title">
-                <p>We can have a world in which wealthy people exist, without handing <a href="https://www.usatoday.com/story/money/2018/01/22/vast-majority-new-wealth-last-year-went-top-1/1051947001/" target="_blank">nearly all money</a>  to the super rich.
-                </div>
+                <p>ما می توانیم در جهانی زندگی کنیم که ثروتمندان وجود داشته باشند، اما <a href="https://www.usatoday.com/story/money/2018/01/22/vast-majority-new-wealth-last-year-went-top-1/1051947001/" target="_blank">همه سرمایه جدید را ابرثروتمندان</a> بالا نکشند.
+                </p>
               </div>
-
+            </div> 
         <div class="infobox infobox text-infobox no-single-human">
           <div class="title">
-            <p>No single human needs or deserves this much wealth.</p>
+            <p>هیج تک انسانی، نه شایستگی چنین ثروتی را دارد، و نه نیازی به این میزان از ثروت دارد.</p>
           </div>
         </div>
 
@@ -266,7 +283,7 @@
 
     <div id="four-hundred" class="wealth-wrapper four-hundred">
       <div class="wealth ruler">
-        <h2 class="wealth-title">400 richest Americans ($3.2 trillion)</h2>
+        <h2 class="wealth-title">چهارصد ثروتمندترین امریکایی ($3,200,000,000,000)</h2>
         <div class="counter" id="four-hundred-counter"></div>
         <div class="key">
           <span>$80 million</span>
@@ -274,40 +291,49 @@
 
         <div class="infobox infobox text-infobox intro">
           <div class="title">
-            Jeff Bezos may be insanely rich, but it is a drop in the ocean compared to the combined wealth of his peers. The 400 richest Americans own about $3.2 trillion, which is more than the bottom 60% of Americans.
+            جف بزوس به صورت دیوانه واری ثروتمند است، اما او تنها شخصی نیست که چنین ثروتی دارد. چهارصد ثروتمند ترین افراد در امریکا تقریبا سه هزار میلیارد دلار سرمایه دارند, که از سرمایه دویست میلیون امریکایی آخر (شصت درصد جمعیت امریکا) بیشتر است.
           </div>
         </div>
 
         <div id="four-hundred-counter-start" class="people-wrapper-outer four-hundred-people infobox infobox-close">
           <div class="people-wrapper center-sticky">
             <div class="people">
-              <div class="people-label bubble">400 people</div>
+              <div class="people-label bubble">400 نفر</div>
             </div>
           </div>
         </div>
 
         <div class="people-wrapper-outer sixty-percent-people infobox infobox-close">
           <div id="sixty-percent" class="people-wrapper center-sticky">
-            <div class="people-label bubble">Bottom 60% <div class="people-sub-label">(Scroll Down)</div></div>
+            <div class="people-label bubble">پایینی 60% <div class="people-sub-label">(اسکرول به پایین کنید)</div></div>
             <div id="sixty-percent-indicator" class="percent">0.0%</div>
           </div>
         </div>
 
         <div class="infobox infobox text-infobox intro">
           <div class="title">
-            <p>A trillion dollars is such a large figure, that you might as well say "eleventy gajillion zillion dollars."  So in this section, we will try to understand the scale of this figure by looking at what could be accomplished with various chunks of this wealth.</p>
+            <p>هزار میلیارد آنقدر بزرگ است که نتوان آن را به سادگی درک کرد. پس در این بخش
+              ما سعی می کنیم بزرگی این ثروت را با نمایش کار هایی که می توان با قطعاتی از
+              این ثروت کرد، درک کنیم.
+            </p>
           </div>
         </div>
 
         <div class="infobox text-infobox infobox-close">
           <div class="title">
-            Some will argue that using this wealth for public benefit is not possible, because it's "tied up" in stocks, and therefore inaccessible. <a href="https://github.com/MKorostoff/1-pixel-wealth/blob/master/THE_PAPER_BILLIONAIRE.md" target="_blank">This is just not true</a>.
+            برخی ممکن است ادعا کنند
+            که از این ثروت نمی توان استفاده کرد چون در سهام ها حبس شده است و با خارج
+            کردن آن، بی ارزش می شود. این ادعا که می توان آن را «میلیاردر های کاغذی» نامید، 
+            <a href="https://github.com/MKorostoff/1-pixel-wealth/blob/master/THE_PAPER_BILLIONAIRE.md" target="_blank">ادعای درستی نیست</a>.
           </div>
         </div>
 
         <div class="infobox text-infobox infobox-close">
           <div class="title">
-            <p>As we proceed, try to keep in mind: all of this wealth is controlled by a group so small, that they could fit on a single 747 airplane&#8212;with 260 seats left over.</p>
+            <p>همان طور که ادامه می دهیم، فراموش نکنید که این ثروت توسط عده بسیار کوچکی
+              کنترل می شود. آن قدر کوچک که می توان تمام آن ها را در یک بوئینگ 747 جا داد و
+              هم چنان ۲۶۰ صندلی خالی بماند.
+            </p>
           </div>
         </div>
 
@@ -320,7 +346,7 @@
         </div>
 
         <div class="infobox text-infobox infobox-half">
-          <h2 class="title what-could-we-do">What could we do with under 10% of this money?</h2>
+          <h2 class="title what-could-we-do">با ده درصد از این پول چه کار هایی می توان کرد؟</h2>
         </div>
 
         <div class="infobox infobox-quarter flex">
@@ -331,26 +357,39 @@
             <span class="label">6%</span>
             <div class="dotted-line"></div>
             <div class="description">
-              <h2>Vaccinate every human on earth against coronavirus</h2>
+              <h2>واکسینه کردن همه انسان ها در برابر ویروس کرونا</h2>
             </div>
           </div>
         </div>
 
         <div class="infobox text-infobox infobox-close">
           <div class="title">
-            <p>Based on the <a href="https://www.washingtonpost.com/world/eu-coronavirus-vaccines-cheaper-than-united-states/2020/12/18/06677e34-4139-11eb-b58b-1623f6267960_story.html">cost of vaccines</a> and the <a href="https://www.who.int/docs/default-source/coronaviruse/act-accelerator/covax/costs-of-covid-19-vaccine-delivery-in-92amc_08.02.21.pdf" target="_blank">cost of delivery</a>, it would take around <a href="https://github.com/MKorostoff/1-pixel-wealth/blob/master/docs/COST_OF_VACCINATION.md" target="_blank">$200 billion</a> to vaccinate every person on earth, which is about 6% of the wealth currently controlled by 400 Americans. After paying for this vaccination program, these individuals would still be $40 billion richer than they were before the pandemic.</p>
+            <p>بر اساس <a href="https://www.washingtonpost.com/world/eu-coronavirus-vaccines-cheaper-than-united-states/2020/12/18/06677e34-4139-11eb-b58b-1623f6267960_story.html">هزینه واکسن</a> و <a href="https://www.who.int/docs/default-source/coronaviruse/act-accelerator/covax/costs-of-covid-19-vaccine-delivery-in-92amc_08.02.21.pdf" target="_blank">هزینه حمل و نقل آن</a> تقریبا <a href="https://github.com/MKorostoff/1-pixel-wealth/blob/master/docs/COST_OF_VACCINATION.md" target="_blank">$200,000,000,000</a> هزینه واکسینه کردن کل افراد جهان است, که شش درصد ثروت کنترل شده توسط 400 امریکایی است. 
+              بعد از پرداخت این هزینه برای واکسن, این افراد هم چنان
+              $40,000,000,000
+              ثروتمند تر از وضعیت قبل همه گیری کرونا خواهند بود.
+            </p>
           </div>
         </div>
 
         <div class="infobox text-infobox infobox-close">
           <div class="title">
-            <p>Even setting aside the desperate humanitarian need for a global vaccination, there is still a strong self-interested argument that wealthy countries should do it: the longer covid circulates in the world, the more chance of a <a href="https://www.newscientist.com/article/mg24933201-800-vaccine-nationalism-will-leave-everyone-more-at-risk-of-coronavirus/" target="_blank">vaccine resistant variant</a> emerging, and undoing all the vaccine progress we've already made.</p>
+            <p>
+              جدای از جنبه انسان دوستانه این کار، انگیزه شخصی نیز برای این کار وجود دارد. در صورت
+              عدم توازن در توزیع واکسن بین کشور ها،
+              <a href="https://www.newscientist.com/article/mg24933201-800-vaccine-nationalism-will-leave-everyone-more-at-risk-of-coronavirus/" target="_blank">ویروس های مقاوم به واکسن</a>
+              شیوع پیدا می کنند و تمام زحمات تولید واکسن را از بین می برند.
+            </p>
           </div>
         </div>
 
         <div class="infobox text-infobox infobox-close">
           <div class="title">
-            <p>The World Health Organization is currently organizing a global vaccine donation program which aims to vaccinate <a href="https://www.who.int/initiatives/act-accelerator/covax" target="_blank">about 20%</a> of residents in poor countries by the end of 2021, and even that approach has <a href="https://www.washingtonpost.com/world/2021/04/01/covax-healthcare-workers-funding/" target="_blank">substantial funding shortfalls</a>.</p>
+            <p>
+              سازمان بهداشت جهانی قصد دارد
+              <a href="https://www.who.int/initiatives/act-accelerator/covax" target="_blank">حدود 20%</a>
+              از شهروندان کشور های فقیر را تا پایان ۲۰۲۱ واکسینه کند، ولی حتی برای این کار نیز
+              <a href="https://www.washingtonpost.com/world/2021/04/01/covax-healthcare-workers-funding/" target="_blank">پول کم دارد</a>.</p>
           </div>
         </div>
 
@@ -362,25 +401,28 @@
             <span class="label">3%</span>
             <div class="dotted-line"></div>
             <div class="description">
-              <h2>Permanently eradicate malaria</h2>
+              <h2>منقرض کردن مالاریا برای همیشه</h2>
             </div>
           </div>
         </div>
 
         <div class="infobox text-infobox infobox-close">
           <div class="title">
-            <p>Malaria is one of the worst infectious diseases ever visited on mankind, possibly killing more people than any other infectious disease in history. In the 20th century alone, malaria killed more people than the Black Death.</p>
+            <p>
+              مالاریا یکی از خطرناک ترین بیماری ها برای گونه بشر بوده است که احتمالا بیشترین کشته
+              را داشته است. فقط در قرن بیستم، مالاریا بیشتر از مرگ سیاه در تمام زمان ها کشته داشته
+              است.
+            </p>
           </div>
         </div>
-
         <div class="infobox infobox-quarter">
           <div class="infectious">
             <div class="malaria-bar">
               <div class="square shadow">
-                <div class="title">Annual Malaria deaths<br> (409,000)</div>
+                <div class="title">کشته های سالانه مالاریا<br> (409,000)</div>
               </div>
             </div>
-            <div class="ebola-bar"><div class="title">Ebola deaths in <strong>all of human history</strong> combined (about 15,000)</div>
+            <div class="ebola-bar"><div class="title">کشته های ابولا <strong>در کل تاریخ بشر</strong> (حدود 15,000)</div>
               <div class="square shadow"></div>
             </div>
           </div>
@@ -388,14 +430,17 @@
 
         <div class="infobox text-infobox infobox-close">
           <div class="title">
-            These figures are even more shocking when you learn that malaria overwhelmingly kills children; around two-thirds of malaria deaths each year are children under five. That's around 275,000 children.
+            این آمار وقتی شکه کننده تر می شود که می بینیم دو سوم کشته های مالاریا، کودکان زیر
+            پنج سال هستند. یعنی حدود 275,000 کودک.
           </div>
         </div>
 
         <div class="infobox infobox-close malaria flex">
           <div id="babies-wrapper" class="babies-wrapper center-sticky">
             <div id="babies" class="babies">
-              <div class="scroll-indicator bubble">Children under five killed by malaria each year <div class="people-sub-label">(Scroll Down)</div></div>
+              <div class="scroll-indicator bubble">
+                کودکان زیر پنج سال که هر سال توسط مالاریا کشته می شوند
+                <div class="people-sub-label">(به پایین اسکرول کنید)</div></div>
               <span id="baby-counter" class="baby-counter bubble">10</span>
             </div>
           </div>
@@ -403,14 +448,20 @@
 
         <div class="infobox text-infobox infobox-close">
           <div class="title">
-            <p><em>All</em> of these deaths are preventable. Treating and preventing malaria is a well understood science, universally practiced in the developed world.</p>
-            <p><a href="https://www.ncbi.nlm.nih.gov/pubmed/25551454" target="_blank">It is estimated</a> that malaria could be globally eradicated by 2030 for a cost around $1.84 per at-risk person per year, or around $100 billion total. This would be around 3% of the wealth currently possessed by the 400 richest Americans.</p>
+            <p><em>تمام</em> این مرگ ها قابل پیش گیری هستند. جلوگیری از مالاریا کاملا شناخته شده است و در کشور های توسعه یافته اجرا می شود</p>
+            <p><a href="https://www.ncbi.nlm.nih.gov/pubmed/25551454" target="_blank">تخمین زده می شود</a> که مالاریا می تواند تا سال 1409 منقرض شود، با هزینه $1.84 به ازای هر شخص در معرض خطر در سال، یا
+            در حدود صد میلیارد دلار در مجموع. این مبلغ فقط سه درصد از سرمایه چهارصد امریکایی است.
+            </p>
           </div>
         </div>
 
         <div class="infobox text-infobox infobox-close">
           <div class="title">
-            <p>Around 800 children will die of malaria today. A small group of super rich people could stop it for a sum of money so small that they would likely never even notice its absence. But they choose not to.</p>
+            <p>
+              هشتصد کودک امروز از مالاریا می میرند. گروه کوچکی از ابرثروتمندان می توانند همین امروز
+              جلوی این اتفاق را بگیرند، با درصدی آنقدر کوچک که حتی شاید نبود آن را حس نکنند. اما
+              آن ها انتخاب کرده اند که این کار را نکنند.
+            </p>
           </div>
         </div>
 
@@ -422,21 +473,32 @@
             <span class="label">2.5%</span>
             <div class="dotted-line"></div>
             <div class="description">
-              <h2>Wipe out all the delinquent medical debt in America</h2>
+              <h2>تسویه تمام وام های دارویی در امریکا</h2>
             </div>
           </div>
         </div>
 
         <div class="infobox text-infobox infobox-close">
           <div class="title">
-            <p>Americans have about <a href="https://www.pbs.org/newshour/health/millennials-rack-up-the-most-medical-debt-and-more-frequently" target="_blank">$81 billion</a> in medical debt that is sufficiently past due as to appear on their credit report. These are generally small debts, with a median value of <a href="https://files.consumerfinance.gov/f/201412_cfpb_reports_consumer-credit-medical-and-non-medical-collections.pdf" target="_blank">$207 dollars</a> per person.</p>
-            <p> These debts hinder the credit of over 50 million Americans, and do long term damage to their housing, employment, and borrowing options. The cost of repaying this debt dollar-for-dollar would be around 2.5% of the wealth controlled by 400 Americans.</p>
+            <p>
+              امریکایی ها در حدود
+              <a href="https://www.pbs.org/newshour/health/millennials-rack-up-the-most-medical-debt-and-more-frequently" target="_blank">$81,000,000,000</a> 
+              بدهی درمانی دارند. این بدهی ها معمولا کوچک است و میانه آن
+              <a href="https://files.consumerfinance.gov/f/201412_cfpb_reports_consumer-credit-medical-and-non-medical-collections.pdf" target="_blank">$207</a>
+              به ازای هر شخص است. این بدهی ها باعث شده است که پنجاه میلیون امریکایی دچار آسیب های
+              بلندمدتی شوند و خانه، شغل و یا گزینه های قرض خود را از دست بدهند.
+            </p>
           </div>
         </div>
 
         <div class="infobox text-infobox infobox-close">
           <div class="title">
-            This situation looks even better once you understand that delinquent debt is often purchased for as <a href="https://www.ksl.com/article/46455844/charity-buys-and-erases-past-due-medical-debt" target="_blank">little as 1%</a> of its face value. This would make the total cost of eliminating all delinquent medical debt around $810 million. In 2020, the richest 400 Americans accrued this amount roughly every 29 hours.
+            این مساله وقتی جالب تر می شود که بدانیم اکثر وام های دارویی با پرداخت حدود
+            <a href="https://www.ksl.com/article/46455844/charity-buys-and-erases-past-due-medical-debt" target="_blank">یک درصد</a>
+            از مبلغشان قابل تسویه هستند.
+            یعنی برای تسویه تمامی وام های درمانی امریکایی ها حدود
+            $810,000,000
+            کافی است. در سال 1399 این جهارصد نفر این مبلغ را به طور متوسط هر 29 ساعت یک بار به چنگ می آوردند.
           </div>
         </div>
 
@@ -448,7 +510,11 @@
 
         <div class="infobox text-infobox infobox-close">
           <div class="title">
-            Note that this figure includes only <em>delinquent</em> medical debt, not all medical debt. The value of all medical debt in America is not publicly known, but probably in the neighborhood of <a href="https://github.com/MKorostoff/1-pixel-wealth/blob/master/docs/VALUE_OF_MEDICAL_DEBT.md" target="_blank">$300 billion</a>, or 9% of the wealth controlled by 400 Americans.
+            دقت کنید که این مبلغ صرفا بدهی های <em>معوق</em> دارویی را شامل می شود.
+            نه همه بدهی های دارویی را. همه بدهی های دارویی امریکا به صورت عمومی منتشر
+            نشده است، ولی در حدود
+            <a href="https://github.com/MKorostoff/1-pixel-wealth/blob/master/docs/VALUE_OF_MEDICAL_DEBT.md" target="_blank">$300,000,000,000</a>
+            یا نه درصد سرمایه این ۴۰۰ نفر می باشد.
           </div>
         </div>
 
@@ -460,47 +526,74 @@
             <span class="label">5.3%</span>
             <div class="dotted-line"></div>
             <div class="description">
-              <h2>Lift every American out of poverty.</h2>
+              <h2>خارج کردن همه امریکایی ها از فقر</h2>
             </div>
           </div>
         </div>
 
         <div class="infobox text-infobox infobox-close">
           <div class="title">
-            As of 2021, around 38 million Americans lived in poverty. If Americans in poverty were a state, they would be second largest by population. There are more Americans living in poverty than the entire population of Canada.
+            در سال 1400 حدود 38 میلیون امریکایی در فقر زندگی می کنند. اگر امریکایی های در فقر
+            یک ایالت بودند، آن ها دومین ایالت پر جمعیت می شدند. تعداد امریکایی های در فقر
+            از جمعیت کانادا بیشتر است.
           </div>
         </div>
-
         <div class="infobox infobox-close">
           <div class="chart">
-            <h3>Population of US States compared to poverty, 2021</h3>
+            <h3>جمعیت ایالت های امریکا و مقایسه با فقرای امریکا</h3>
             <img src="img/poverty.svg">
           </div>
         </div>
 
         <div class="infobox text-infobox infobox-close">
           <div class="title">
-            <p><a href="https://www.census.gov/content/dam/Census/library/publications/2019/demo/p60-266.pdf" target="_blank">Every single person</a> in America could be lifted above the poverty line with a one-time cash subsidy of around $10,000 per impoverished family (and about $7,000 for impoverished individuals). The total cost would be $170 billion, a little over 5% of the wealth currently controlled by 400 individuals.</p>
+            <p>
+              <a href="https://www.census.gov/content/dam/Census/library/publications/2019/demo/p60-266.pdf" target="_blank">هر شخص</a>
+              در امریکا می تواند با یک کمک هفت هزار دلاری یک مرتبه ای، از فقر خلاص شود. این مبلغ
+              برای خانواده های در فقر، ده هزار دلار به ازای کل خانواده است. در نتیجه با تنها
+              صد و هفتاد میلیارد دلار، که پنج درصد ثروت ۴۰۰ ابرثروتمند امریکاست، می توان فقر را
+              در این کشور ریشه کن کرد.
+            </p>
           </div>
         </div>
 
         <div class="infobox text-infobox infobox-close">
           <div class="title">
-            <p>It may seem counter intuitive that a one-time subsidy could have any lasting impact on chronic poverty. But one of the surprising truths about poverty is that it's fluid. Americans move in and out of poverty many times throughout their lives, and one good year can have a massive and long lasting effect.</p>
-
-              <p>A wealth of data now supports the idea that <a href="https://www.givedirectly.org/research-on-cash-transfers/" target="_blank">one-time cash transfers can permanently transform a local economy.</a> Given a sudden windfall, people invest in their future. They go back to school, obtain transportation, pay for childcare, pay down debilitating debts, and do any number of things to improve their career prospects and financial future.</p>
+            <p>
+              این مساله که یک کمک یک مرتبه ای می تواند اثر طولانی داشته باشد، ممکن است
+              بر خلاف شهود معمول ما به نظر برسد، اما یکی از حقایق شگفت انگیز درباره فقر این
+              است که فقر مایع است. امریکایی ها بار ها به بالا و زیر خط فقر می روند و یک سال
+              خوب می تواند تاثیر شگفت انگیزی داشته باشد.
+            </p>
+            <p>
+              داده های زیادی وجود دارد که از ایده
+              <a href="https://www.givedirectly.org/research-on-cash-transfers/" target="_blank">یک رویداد یک مرتبه ای می تواند تاثیر چشم گیری بر اقتصاد های محلی بگذارد»</a>
+              پشتیبانی می کنند. با یک اهدای یک مرتبه ای، فقرا می توانند روی آینده سرمایه گذاری کنند
+              به جای این که کل درآمد خود را خرج زنده ماندن کنند.
+            </p>
           </div>
         </div>
 
         <div class="infobox text-infobox infobox-close">
           <div class="title">
-            <p>In the US, for all of the people that escape poverty in any given year, <a href="https://poverty.ucdavis.edu/sites/main/files/file-attachments/stevens_1994aerpp.pdf" target="_blank">about half stay out of poverty for at least five years afterwards</a>. About a third are still out of poverty ten years later.</p>
+            <p>
+              در امریکا، نیمی از امریکایی هایی که از فقر خلاص می شوند،
+              <a href="https://poverty.ucdavis.edu/sites/main/files/file-attachments/stevens_1994aerpp.pdf" target="_blank">حداقل پنج سال دیگر بیرون از فقر می مانند</a>
+              و یک سوم از آن ها این وضع را تا ده سال حفظ می کنند.  
+            </p>
           </div>
         </div>
 
         <div class="infobox text-infobox infobox-close">
           <div class="title">
-            <p>This would not be a permanent fix for all Americans. Surely, some would quickly return to poverty, and others face debts so large that the subsidy would make little difference. But for tens of millions of Americans, this would be a life changing event. It would be a generation defining social program that reshapes our economy for decades to come.</p>
+            <p>
+              این یک راه حل دائمی برای تمام امریکایی ها نیست. مطمئنا بعضی از آن ها به سرعت
+              به فقر بر می گردند و بعضی از آن ها آن چنان بدهی های سنگینی دارند که این مبلغ
+              بهشان کمکی نمی کند. اما این اتفاق برای ده ها میلیون تن از امریکایی ها یک رویداد
+              شگفت انگیز در زندگیشان خواهد شد. چنین کاری می تواند یک برنامه اجتماعی باشد که
+              روی نسل ها تاثیر می گذارد و می تواند اقتصاد امریکا را برای دهه ها تغییر شکل
+              دهد.
+            </p>
           </div>
        </div>
 
@@ -512,38 +605,50 @@
             <span class="label">7.5%</span>
             <div class="dotted-line"></div>
             <div class="description">
-              <h2>Provide clean drinking water and toilet access to every human on earth.</h2>
+              <h2>دسترسی به آب آشامیدنی و سرویس بهداشتی برای تمام انسان های زمین</h2>
             </div>
           </div>
         </div>
 
         <div class="infobox text-infobox infobox-close">
           <div class="title">
-            <p>Around <a href="https://www.who.int/news-room/detail/12-07-2017-2-1-billion-people-lack-safe-drinking-water-at-home-more-than-twice-as-many-lack-safe-sanitation" target="_blank">844 million people</a> have no access to clean water of any kind. About the same number have no access to a toilet or latrine of any kind, and therefore defecate in the open.</p>
+            <p>حدود <a href="https://www.who.int/news-room/detail/12-07-2017-2-1-billion-people-lack-safe-drinking-water-at-home-more-than-twice-as-many-lack-safe-sanitation" target="_blank">844 میلیون نفر</a>
+              هیج دسترسی به آب آشامیدنی سالم از هیچ نوعی ندارند. در همین حدود دسترسی به دستشویی
+              ندارند و در فضای باز ادرار می کنند.
+            </p>
           </div>
         </div>
 
         <div class="infobox text-infobox infobox-close">
           <div class="worldchart">
             <img src="img/no_clean_water.png"/>
-            <h2 class="description">No clean water</h2>
+            <h2 class="description">بدون آب سالم</h2>
           </div>
         </div>
 
         <div class="infobox text-infobox infobox-close">
           <div class="title">
-            <p>Contaminated water is a major source of disease, including cholera, dysentery, and typhoid. <a href="https://www.who.int/news-room/fact-sheets/detail/drinking-water">It is estimated</a> that contaminated water kills about 829,000 people every year, making it one of the world's biggest killers. The cost to provide clean water and waste disposal for everyone on earth would be about <a href="https://www.who.int/water_sanitation_health/watandmacr3.pdf" target="_blank">$240 billion</a>, or 7.5% of the wealth controlled by the 400 richest Americans.</p>
+            <p>
+              آب ناسالم سرمنشا بسیاری از بیماری هاست.
+              <a href="https://www.who.int/news-room/fact-sheets/detail/drinking-water">تخمین زده می شود</a>
+              که آب ناسالم
+              829,000
+              نفر را سالانه می کشد که این مساله را به یکی از بزرگترین قاتلان جهان تبدیل می کند.
+              هزینه تامین آب سالم و تصفیه آب برای همه افراد زمین در حدود
+              <a href="https://www.who.int/water_sanitation_health/watandmacr3.pdf" target="_blank">دویست و چهل میلیارد دلار</a>
+              یا هفت درصد از ثروت این چهارصد نفر است.  
+            </p>
           </div>
         </div>
 
         <div class="infobox text-infobox infobox-close">
           <div class="title">
-            OK, now that we've established the scale of inequality in the United States, let's dare to dream a little bigger.
+            خب، تا الان ابعاد نابرابری باید تا حدی روشن شده باشد، حال بیایید کمی بیشتر رویا پردازی کنیم.
           </div>
         </div>
 
         <div class="infobox text-infobox infobox-close">
-          <h2 class="title what-could-we-do">What could we do with under 40% of this money?</h2>
+          <h2 class="title what-could-we-do">با ۴۰ درصد از این پول چه می توان کرد؟</h2>
         </div>
 
 
@@ -555,21 +660,35 @@
             <span class="label">39.6%</span>
             <div class="dotted-line"></div>
             <div class="description">
-              <h2>Provide paid maternity and paternity leave to every American for the next 100 years</h2>
+              <h2>تامین مرخصی با حقوق برای زایمان و والدین تا ۱۰۰ سال آینده برای هر امریکایی</h2>
             </div>
           </div>
         </div>
 
         <div class="infobox text-infobox infobox-close">
           <div class="title">
-            <p>Paid maternity and paternity leave are estimated to cost around <a href="https://www.americanactionforum.org/insight/the-fiscal-cost-of-a-paid-parental-leave-program-by-state/" target="_blank">$12 billion</a> per year. This is 0.39% of the wealth controlled by 400 Americans. It is 5% of the wealth they accrued in 2020 alone.</p>
-            <p>If they repeated this payment every year for the next 100 years, it would equal 39% of the wealth they control today.</p>
+            <p>
+              تخمین زده می شود مرخصی والدین حدود
+              <a href="https://www.americanactionforum.org/insight/the-fiscal-cost-of-a-paid-parental-leave-program-by-state/" target="_blank">$12,000,000,000</a>
+              در هر سال هزینه دارد. این حدود 39 صدم درصد ثروت کنترل شده توسط 400 امریکایی است و پنج درصد ثروتی است
+              که آن ها فقط در سال 1399 به چنگ آوردند. اگر آن ها بخواهند یک جا برای صد سال آینده این هزینه را
+              پرداخت کنند، با 39 درصد از ثروتشان می توانند این کار را انجام دهند.
+            </p>
           </div>
         </div>
 
         <div class="infobox text-infobox infobox-close">
           <div class="title">
-            <p>This is a more complex program to estimate than the others considered on this page, because the expense would be continuous, rather than one-time, and the cost is highly variable based on the size of the benefit provided. Still, using the <a href="https://www.manning-napier.com/insights/blogs/insights-for-non-profits/endowments-and-foundations-a-closer-look-at-spending-rules" target="_blank">5% endowment payout rule</a> the super wealthy should be able to finance a family leave program about 12 times more generous than the one contemplated here <u>forever</u> and still get richer into perpetuity, even accounting for inflation.</p>
+            <p>
+              این برنامه نسبت به بقیه چیز هایی که در این صفحه بررسی کردیم پیچیده تر است. زیرا یک پرداخت
+              پیوسته است و نه یک مرتبه ای و اگر این پرداخت به صورت یک جا انجام شود احتمالا در اثر تورم
+              نمی تواند همه صد سال را ادامه دهد. با این حال با یک مالیات
+              <a href="https://www.manning-napier.com/insights/blogs/insights-for-non-profits/endowments-and-foundations-a-closer-look-at-spending-rules" target="_blank">پنج درصدی پرداخت موقوفه</a>
+              ابرثروتمندان می توانند مرخصی زایمان و والدین را به صورت 12 برابر بهتر از چیزی که در طول
+              عمر امریکا در این سرزمین پیاده شده است،
+              <u>برای همیشه</u>
+              اجرا کنند و هم چنان ثروتمند تر شوند، حتی با احتساب تورم.  
+            </p>
           </div>
         </div>
 
@@ -581,25 +700,29 @@
             <span class="label">40%</span>
             <div class="dotted-line"></div>
             <div class="description">
-              <h2>Give $10,000 to every American household</h2>
+              <h2>پرداخت ده هزار دلار به هر خانواده امریکایی</h2>
             </div>
           </div>
         </div>
 
         <div class="infobox text-infobox infobox-close">
           <div class="title">
-            There are about 128 million households in the United States. To give each one $10,000 would cost $1.28 trillion, or about 40% of the wealth controlled by 400 Americans.
+            صد و بیست و هشت میلیون خانواده امریکایی وجود دارد. برای دادن ده هزار دلار به هر کدام، هزار و دویست و هشتاد
+            میلیارد دلار لازم است که برابر چهل درصد ثروت این ثروتمندان است.
           </div>
         </div>
 
         <div class="infobox text-infobox infobox-close">
           <div class="title">
-            <p>As the coronavirus raged through America in 2020, working people were frequently presented with a seemingly impossible choice between death by premature reopening and an economic depression brought about through a continued quarantine. Unspoken in this false choice was the supposition that Americans could not pay their living expenses without either work or unsustainable government deficit spending&mdash;where else could the money have possibly come from?</p>
+            <p>
+              همانطور که ویروس کرونا در سال 1399 در آمریکا بیداد می کرد، افراد در یک دوراهی ظاهراً غیرممکن بین مرگ با بازگشایی زودرس و رکود اقتصادی ناشی از ادامه قرنطینه قرار می گرفتند.
+              در این انتخاب دروغ ناگفته این فرض بود که آمریکایی ها نمی توانند هزینه های زندگی خود را بدون کار یا هزینه های ناپایدار کسری دولت پرداخت کنند - پول از کجای دیگر ممکن است تأمین شود؟
+            </p>
           </div>
         </div>
 
         <div class="infobox text-infobox infobox-close">
-          <h2 class="title what-could-we-do">What could we do with 60% of this money?</h2>
+          <h2 class="title what-could-we-do">چه می توان با ۶۰ درصد از این پول کرد؟</h2>
         </div>
 
         <div class="ninety-wrapper-outer infobox infobox-close">
@@ -612,42 +735,43 @@
 
         <div class="infobox text-infobox infobox-close">
           <div class="title">
-            These programs combined would completely transform our world. By redistributing this wealth, millions of lives would be saved. Billions would be rescued from poverty and disease. By inconveniencing <em>just 400 people</em>, the entire human race could advance to a new, unprecedented level of development.
+            این برنامه ها به کلی جهان را عوض خواهند کرد. با توزیع این سرمایه
+            می توان میلیون ها نفر را از مرگ و میلیارد ها نفر را از فقر و بیماری نجات
+            داد. با قانع کردن
+            <em>فقط ۴۰۰ نفر</em>
+            بشریت می تواند به سطح جدیدی از توسعه و تمدن برسد.
           </div>
         </div>
 
         <div class="infobox text-infobox infobox-close all-of-them">
           <div class="title">
-            And <em>all</em> of them would still be billionaires afterwards.
+            و <em>همه</em> آن ها هم چنان میلیاردر خواهند ماند.
           </div>
         </div>
 
         <div class="infobox text-infobox infobox-close">
           <div class="title">
-            Is it really so radical to suggest that this is the right thing to do? Given the choice between millions of deaths, and slightly shrinking the fortunes of a few super rich people, how could anyone conclude that the death of millions is preferable?
+            آیا پیشنهاد این که این کار کار درست است، انقدر افراطی است؟ بین نجات میلیون ها
+            انسان و کوچک کردن سرمایه چند ابرثروتمند، آیا انتخاب انقدر سخت است؟ چگونه
+            می توانید مرگ میلیون ها نفر را ترجیح دهید؟
           </div>
         </div>
 
         <div class="infobox text-infobox infobox-half">
-          <h2 class="title what-could-we-do">We cannot accept this level of inequality any longer.</h2>
+          <h2 class="title what-could-we-do">
+            ما نمی توانیم بیشتر از این، این سطح از نابرابری را تحمل کنیم  
+          </h2>
         </div>
 
       </div>
     </div>
   </div>
   <div class="footer">
-    <div>Updated April 3, 2021. <a target="_blank" href="https://github.com/MKorostoff/1-pixel-wealth/blob/master/README.md">About this page</a></div>
-    <div class="also">Also checkout: <a href="https://mkorostoff.github.io/incarceration-in-real-numbers/" target="_blank">Incarceration in Real Numbers</a></div>
+    <div>به روز رسانی شده در ۱۲ تیر ۱۴۰۰<a target="_blank" href="https://github.com/MKorostoff/1-pixel-wealth/blob/master/README.md">درباره این صفحه</a></div>
+    <div>هم چنین ببینید: «<a href="https://persianhodhod.github.io/prisoners/">حبس از دید اعداد واقعی</a>»</div>
   </div>
 
 </div>
 <script type="text/javascript" src="main.js?version=1.9"></script>
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-2320532-12"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'UA-2320532-12');
-</script>
 </body>
 </html>
