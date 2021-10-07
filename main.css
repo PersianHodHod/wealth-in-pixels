@@ -10,6 +10,9 @@ html,
 .title-screen {
   width: 100vw;
 }
+.title {
+  direction: rtl;
+}
 h1 {
   text-align: center;
   font-size: 60px;
