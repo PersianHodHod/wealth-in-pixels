@@ -1,6 +1,10 @@
-# About
+<div dir="rtl">
 
-Source code for https://mkorostoff.github.io/1-pixel-wealth/
+# درباره
+
+این سورس کد مربوط به [سرمایه در مقیاس پیکسل](http://persianhodhod.ir/wealth-in-pixels/) است.
+
+</div>
 
 # Translations and Adaptations
 
