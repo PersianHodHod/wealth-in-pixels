@@ -1,3 +1,8 @@
+@font-face {
+  font-family: Vazir;
+  src: url('Vazir.ttf') format('truetype');
+}
+
 body, html {
   margin: 0;
 }
@@ -66,7 +71,7 @@ h1 {
   100% {background-position: 50px 40px;}
 }
 .wealth-wrapper-outer {
-  font-family: sans-serif;
+  font-family: Vazir;
   overflow: visible;
   display: inline-block;
 }
