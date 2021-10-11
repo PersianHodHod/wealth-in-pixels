@@ -30,15 +30,15 @@ h1 {
   width: 360px;
   height: 165px;
   position: absolute;
-  right: 0;
+  left: 0;
   bottom: 0;
   padding-top: 42px;
-  padding-left: 48px;
+  padding-right: 48px;
 
   font-size: 30px;
   color: #00000033;
 
-  background-image: url(img/right.svg);
+  background-image: url(img/left.svg);
   background-repeat: no-repeat;
   background-size: 50%;
   background-position: 50px 40px;
@@ -58,7 +58,7 @@ h1 {
 }
 @media (max-width: 450px) {
   .scroll-this-way {
-    right: -35vw;
+    left: -35vw;
   }
 }
 @keyframes bouncy-arrow {
@@ -77,14 +77,14 @@ h1 {
 }
 .center-sticky {
   position: sticky;
-  left: 50%;
-  transform: translate(-50%, 0);
+  right: 50%;
+  transform: translate(50%, 0);
 }
 .navigation {
   position: fixed;
   bottom: 15px;
-  left: 50%;
-  transform: translate(-50%, 0);
+  right: 50%;
+  transform: translate(50%, 0);
   display: flex;
 }
 .navigation .button {
@@ -130,7 +130,7 @@ h1 {
   display: inline-flex;
 }
 .arrow {
-  margin-left: -6px;
+  margin-right: -6px;
   margin-top: 5px;
 }
 .wealth-wrapper {
@@ -152,7 +152,7 @@ h1 {
   flex-basis: 420px;
 }
 .four-hundred .infobox.intro {
-  margin-left: 0;
+  margin-right: 0;
   position: relative;
   width: auto;
   width: 10000px;
@@ -169,7 +169,7 @@ h1 {
 .wealth-title {
   align-self: flex-start;
   position: sticky;
-  left: 0;
+  right: 0;
   margin-bottom: 5px;
   color: black;
   margin-top: 0;
@@ -197,7 +197,7 @@ h1 {
 }
 .infobox.year-veteran .title {
   position: sticky;
-  left: 0;
+  right: 0;
 }
 .infobox .chart,
 .infobox .piechart,
@@ -207,12 +207,12 @@ h1 {
 .infobox .title-square-wrapper,
 .text-infobox .title {
   position: sticky;
-  left: 50%;
-  transform: translate(-50%);
+  right: 50%;
+  transform: translate(50%);
 }
 @media (max-width: 450px) {
   .infobox.line-chart .chart-outer {
-    left: 5px;
+    right: 5px;
     width: 98vw;
   }
   .infobox .square,
@@ -221,7 +221,7 @@ h1 {
   .infobox .chart-outer,
   .infobox .midtext,
   .infobox .title {
-    left: 10px;
+    right: 10px;
     transform: none;
   }
 }
@@ -232,7 +232,7 @@ h1 {
 }
 .infobox {
   z-index: 1;
-  margin-left: 8000px;
+  margin-right: 8000px;
   width: 15000px;
 }
 .four-hundred .infobox {
@@ -242,7 +242,7 @@ h1 {
   display: flex;
 }
 .infobox.first {
-  margin-left: 30000px;
+  margin-right: 30000px;
 }
 .infobox.first .title {
   max-width: 390px;
@@ -252,13 +252,13 @@ h1 {
   max-width: 280px;
 }
 .infobox-half {
-  margin-left: 4000px;
+  margin-right: 4000px;
 }
 .infobox-quarter {
-  margin-left: 2000px;
+  margin-right: 2000px;
 }
 .infobox-close {
-  margin-left: 500px;
+  margin-right: 500px;
 }
 .sub-infobox {
   margin: 0 40px;
@@ -315,7 +315,7 @@ h1 {
   background-color: orange;
 }
 .four-hundred .wealth {
-  margin-left: 100px;
+  margin-right: 100px;
   width: 6401200px;
   height: 500px;
   background-color: #03A9F4;
@@ -349,7 +349,7 @@ h1 {
 }
 .counter {
   align-self: flex-end;
-  left: 10px;
+  right: 10px;
   position: sticky;
   transform: translate(0, 27px);
   color: black;
@@ -381,7 +381,7 @@ h1 {
   width: auto;
   padding: 10px;
   max-width: 380px;
-  left: 0;
+  right: 0;
 }
 .year-veteran .square {
   position: static;
@@ -407,7 +407,7 @@ h1 {
 .year-chemo .square .title {
   padding: 10px;
   position: sticky;
-  left: 1px;
+  right: 1px;
   display: inline-block;
 }
 .year-chemo .key {
@@ -469,7 +469,7 @@ h1 {
   width: 940%;
   height: auto;
   margin-top: -102%;
-  margin-left: -20%;
+  margin-right: -20%;
 }
 @media (max-width: 450px) {
   .line-chart .chart-inner .zero,
@@ -489,7 +489,7 @@ h1 {
   .zoom.line-chart svg {
     width: 1200%;
     margin-top: -120%;
-    margin-left: -16%;
+    margin-right: -16%;
   }
 }
 @media (min-width: 451px) {
@@ -505,7 +505,7 @@ h1 {
   display: inline;
 }
 .no-single-human {
-  margin-left: 18000px;
+  margin-right: 18000px;
 }
 .no-single-human .title {
   max-width: 390px;
@@ -552,12 +552,12 @@ h1 {
 .people-label {
   position: absolute;
   top: 40%;
-  left: 39%;
+  right: 39%;
 }
 .scroll-indicator {
   position: absolute;
   top: 40%;
-  left: 260px;
+  right: 260px;
   font-size: 18px;
   max-width: 240px;
 }
@@ -579,7 +579,7 @@ h1 {
   position: sticky;
   margin-top: 1000px;
   top: 160px;
-  margin-left: 350px;
+  margin-right: 350px;
 }
 @media (max-width: 450px) {
   .people {
@@ -598,11 +598,11 @@ h1 {
     height: 1974000px;
   }
   .people-label {
-    left: 35px;
+    right: 35px;
     font-size: 20px;
   }
   .people-wrapper .percent {
-    margin-left: 66px;
+    margin-right: 66px;
   }
 }
 .ninety-wrapper {
@@ -714,13 +714,13 @@ h1 {
   width: 80px;
   height: 0;
   top: 40px;
-  left: 270px;
+  right: 270px;
   border-top: 2px dashed black;
   transform: rotate(-38deg);
 }
 .piechart .label {
   position: absolute;
-  left: 347px;
+  right: 347px;
   top: -7px;
   font-size: 24px;
 }
@@ -729,7 +729,7 @@ h1 {
 }
 @media (max-width: 450px) {
   .piechart .label {
-    left: 277px;
+    right: 277px;
     top: 43px;
     font-size: 18px;
   }
@@ -747,7 +747,7 @@ h1 {
   opacity: 0;
   position: fixed;
   top: 0;
-  left: 0;
+  right: 0;
   height: 100vh;
   width: 100vw;
   background-color: rgba(0, 0, 0, 0.65);
@@ -760,8 +760,8 @@ h1 {
   opacity: 1;
   position: fixed;
   top: 15px;
-  left: 50%;
-  transform: translate(-50%, 0);
+  right: 50%;
+  transform: translate(50%, 0);
   height: 0;
   width: 0;
   overflow: scroll;
@@ -795,7 +795,7 @@ h1 {
   top: 127px;
   position: sticky;
   display: inline-block;
-  left: 350px;
+  right: 350px;
   margin-top: 1800px;
 }
 @media (max-width: 450px) {
@@ -809,10 +809,10 @@ h1 {
   }
   .scroll-indicator {
     top: 38%;
-    left: 40px;
+    right: 40px;
   }
   .baby-counter {
-    left: 135px;
+    right: 135px;
   }
 }
 .infectious {
