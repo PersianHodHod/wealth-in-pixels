@@ -714,13 +714,13 @@ h1 {
   width: 80px;
   height: 0;
   top: 40px;
-  right: 270px;
+  left: 270px;
   border-top: 2px dashed black;
   transform: rotate(-38deg);
 }
 .piechart .label {
   position: absolute;
-  right: 347px;
+  left: 347px;
   top: -7px;
   font-size: 24px;
 }
