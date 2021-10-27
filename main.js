@@ -12,8 +12,8 @@ var sixtyPercentScrollPercentage = 0.0;
 var babies = document.getElementById('babies-wrapper');
 var baby_counter = document.getElementById('baby-counter');
 
-var thousand = new Intl.NumberFormat('en-US')
-var money = new Intl.NumberFormat('en-US', {
+var thousand = new Intl.NumberFormat('fa-IR')
+var money = new Intl.NumberFormat('fa-IR', {
   style: 'currency',
   currency: 'USD',
   minimumFractionDigits: 0,
