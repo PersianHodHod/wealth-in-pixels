@@ -6,9 +6,9 @@
 
 </div>
 
-# Translations and Adaptations
+# ترجمه ها
 
-This page has been translated by volunteers into thirteen languages that I know of. I am not directly involved with any of these translations, and I don't speak any of these languages, so I can't promise they are accurate. If you'd like to create a translation, see [instructions here](https://github.com/MKorostoff/1-pixel-wealth/issues/8#issuecomment-622964168).  Once you've finished, provide a link in the [issue queue](https://github.com/MKorostoff/1-pixel-wealth/issues/new) and I'll update this readme.
+صفحات زیر توسط داوطلبان به سیزده زبان ترجمه شده اند. نسخه اصلی به زبان انگلیسی در [این مخزن](https://github.com/MKorostoff/1-pixel-wealth/) وجود دارد. 
 
 - [Spanish/Español 1](https://cjbarroso.com/1-pixel-wealth)
 - [Spanish/Español 2](https://jhoon.github.io/1-pixel-wealth/es)
@@ -29,9 +29,9 @@ This page has been translated by volunteers into thirteen languages that I know 
 - [Turkish/Türk](https://seaque.github.io/1-pixel-wealth/)
 - [Polish/Polskie](https://adamklimowski.github.io/1-pixel-wealth/)
 
-# Select Sources
+# منابع
 
-_[A note on the role of citations in this project](https://github.com/MKorostoff/1-pixel-wealth/issues/40#issuecomment-648932718)_
+_[یادداشتی درباره نقش منابع در این پروژه توسط نویسنده](https://github.com/MKorostoff/1-pixel-wealth/issues/40#issuecomment-648932718)_
 
 - [Wealth of richest people](https://www.forbes.com/forbes-400/#15b032877e2f)
 - [Perceptions of inequality](https://www.ncbi.nlm.nih.gov/pubmed/26162108)
@@ -46,9 +46,9 @@ _[A note on the role of citations in this project](https://github.com/MKorostoff
 - [Cost of coronavirus testing](https://www.cnbc.com/2020/04/21/coronavirus-tests-rockefeller-plan-would-screen-millions-for-covid-19.html)
 - [Efficacy of cash transfers](https://www.givedirectly.org/research-on-cash-transfers/)
 
-# About the Author
-One pixel wealth was created by [Matt Korostoff](https://mkorostoff.github.io/)
+# درباره نویسنده
+سرمایه در مقیاس پیکسل توسط [Matt Korostoff](https://mkorostoff.github.io/) ساخته شده است.
 
-# Against Malaria
+# مقابله با مالاریا
 
-Please consider making a donation to the [Against Malaria Foundation](https://www.againstmalaria.com/). They are not affiliated with this project in any way, I just really like them.
+نویسنده از شما تقاضا کرده است که به [Against Malaria Foundation](https://www.againstmalaria.com/) کمک کنید. آن ها ارتباطی با این پروژه یا نویسنده ندارند و صرفا نویسنده به آن ها علاقه دارد.
