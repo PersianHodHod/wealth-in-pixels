@@ -14,9 +14,10 @@
 - [Spanish/Español 2](https://jhoon.github.io/1-pixel-wealth/es)
 - [Spanish/Español 3](https://hmijail.github.io/1-pixel-wealth/es)
 - [Spanish/Español 4](https://jsandovalc.github.io/1-pixel-wealth)
-- [Spanish/Español 5](https://dotmanu.github.io/1-pixel-wealth/) (rewritten for Spain)
+- [Spanish/Español 5](https://dotmanu.github.io/1-pixel-wealth/) (بازنویسی‌شده برای اسپانیا)
 - [Portuguese/Português](https://flpms.github.io/1-pixel-wealth)
 - [German/Deutsch](https://eattherichtextformat.github.io/1-pixel-wealth/de/)
+- [German/Deutsch 2](https://vermoegen.moment.at) (بازنویسی‌شده برای اتریش)
 - [Russian/русский](https://aensidhe.ru/1-pixel-wealth/)
 - [Romanian/Română](https://github.com/andreicristianpetcu/1-pixel-wealth)
 - [Chinese/中文](https://doodledu.github.io/1-pixel-wealth)
@@ -24,10 +25,11 @@
 - [French/Française](https://tgluis.github.io/1-pixel-wealth/)
 - [Dutch/Nederlands](https://jobveldhuis.github.io/1-pixel-weelde/)
 - [Italian/Italiano 1](https://lostcrew.github.io/1-pixel-wealth)
-- [Italian/Italiano 2](https://giacomoortona.github.io/1-pixel-wealth/) (rewritten for Italy)
-- [Farsi/فارسی](https://hkalbasi.github.io/etc/1-pixel-wealth/)
+- [Italian/Italiano 2](https://giacomoortona.github.io/1-pixel-wealth/) (بازنویسی‌شده برای ایتالیا)
+- [Farsi/فارسی](https://persianhodhod.ir/wealth-in-pixels/)
 - [Turkish/Türk](https://seaque.github.io/1-pixel-wealth/)
 - [Polish/Polskie](https://adamklimowski.github.io/1-pixel-wealth/)
+
 
 # منابع
 
