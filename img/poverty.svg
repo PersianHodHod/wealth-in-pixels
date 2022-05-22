@@ -2,9 +2,9 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2000/svg" xmlns:xl="http://www.w3.org/1999/xlink" version="1.1" viewBox="271 138 457 394" width="457" height="394">
   <defs>
-    <font-face font-family="Helvetica Neue" font-size="16" panose-1="2 0 5 3 0 0 0 2 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="951.9958" descent="-212.99744" font-weight="400">
+    <font-face font-family="Vazir" font-size="16" panose-1="2 0 5 3 0 0 0 2 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="951.9958" descent="-212.99744" font-weight="400">
       <font-face-src>
-        <font-face-name name="HelveticaNeue"/>
+        <font-face-name name="Vazir"/>
       </font-face-src>
     </font-face>
     <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="NegativeControls_Marker" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -4 2 8" markerWidth="2" markerHeight="8" color="black">
@@ -28,49 +28,49 @@
       <g id="Graphic_2">
         <rect x="279" y="138.75" width="395" height="31.5" fill="#666"/>
         <text transform="translate(284 145.276)" fill="white">
-          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="white" x="0" y="15">کالیفرنیا</tspan>
+          <tspan font-family="Vazir" font-size="16" font-weight="400" fill="white" x="0" y="15">کالیفرنیا</tspan>
         </text>
       </g>
       <g id="Graphic_3">
         <rect x="279" y="182" width="381" height="31.5" fill="#c71b03"/>
         <text transform="translate(284 188.526)" fill="white">
-          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="white" x="0" y="15">فقرایی که در امریکا زندگی می کنند</tspan>
+          <tspan font-family="Vazir" font-size="16" font-weight="400" fill="white" x="0" y="15">فقرایی که در امریکا زندگی می کنند</tspan>
         </text>
       </g>
       <g id="Graphic_4">
         <rect x="279" y="225.25" width="287" height="31.5" fill="#666"/>
         <text transform="translate(284 231.776)" fill="white">
-          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="white" x="0" y="15">تگزاس</tspan>
+          <tspan font-family="Vazir" font-size="16" font-weight="400" fill="white" x="0" y="15">تگزاس</tspan>
         </text>
       </g>
       <g id="Graphic_5">
         <rect x="279" y="316.75" width="195" height="31.5" fill="#666"/>
         <text transform="translate(284 323.276)" fill="white">
-          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="white" x="0" y="15">نیویورک</tspan>
+          <tspan font-family="Vazir" font-size="16" font-weight="400" fill="white" x="0" y="15">نیویورک</tspan>
         </text>
       </g>
       <g id="Graphic_9">
         <rect x="279" y="271" width="212" height="31.5" fill="#666"/>
         <text transform="translate(284 277.526)" fill="white">
-          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="white" x="0" y="15">فلوریدا</tspan>
+          <tspan font-family="Vazir" font-size="16" font-weight="400" fill="white" x="0" y="15">فلوریدا</tspan>
         </text>
       </g>
       <g id="Graphic_10">
         <rect x="279" y="362.5" width="128" height="31.5" fill="#666"/>
         <text transform="translate(284 369.026)" fill="white">
-          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="white" x="0" y="15">پنسیلوانیا</tspan>
+          <tspan font-family="Vazir" font-size="16" font-weight="400" fill="white" x="0" y="15">پنسیلوانیا</tspan>
         </text>
       </g>
       <g id="Graphic_11">
         <rect x="279" y="408.25" width="126" height="31.5" fill="#666"/>
         <text transform="translate(284 414.776)" fill="white">
-          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="white" x="0" y="15">ایلینویز</tspan>
+          <tspan font-family="Vazir" font-size="16" font-weight="400" fill="white" x="0" y="15">ایلینویز</tspan>
         </text>
       </g>
       <g id="Graphic_12">
         <rect x="279" y="454" width="116" height="31.5" fill="#666"/>
         <text transform="translate(284 460.526)" fill="white">
-          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="white" x="0" y="15">اوهایو</tspan>
+          <tspan font-family="Vazir" font-size="16" font-weight="400" fill="white" x="0" y="15">اوهایو</tspan>
         </text>
       </g>
       <g id="Line_15">
@@ -78,12 +78,12 @@
       </g>
       <g id="Graphic_16">
         <text transform="translate(276 508.4)" fill="black">
-          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="31974423e-20" y="15">0</tspan>
+          <tspan font-family="Vazir" font-size="16" font-weight="400" fill="black" x="0" y="15">صفر</tspan>
         </text>
       </g>
       <g id="Graphic_17">
-        <text transform="translate(654.6 508.2)" fill="black">
-          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="0" y="15">40 million</tspan>
+        <text direction="rtl" transform="translate(654.6 508.2)" fill="black">
+          <tspan font-family="Vazir" font-size="16" font-weight="400" fill="black" x="50" y="15">۴۰ میلیون</tspan>
         </text>
       </g>
       <g id="Line_20">

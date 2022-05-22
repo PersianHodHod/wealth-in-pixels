@@ -2,19 +2,19 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg xmlns:xl="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="109 21 648 462" width="648" height="462">
   <defs>
-    <font-face font-family="Helvetica Neue" font-size="16" panose-1="2 0 5 3 0 0 0 2 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="951.9958" descent="-212.99744" font-weight="400">
+    <font-face font-family="Vazir" font-size="16" panose-1="2 0 5 3 0 0 0 2 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="951.9958" descent="-212.99744" font-weight="400">
       <font-face-src>
-        <font-face-name name="HelveticaNeue"/>
+        <font-face-name name="Vazir"/>
       </font-face-src>
     </font-face>
-    <font-face font-family="Helvetica Neue" font-size="15" panose-1="2 0 5 3 0 0 0 2 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="951.9958" descent="-212.99744" font-weight="400">
+    <font-face font-family="Vazir" font-size="15" panose-1="2 0 5 3 0 0 0 2 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="951.9958" descent="-212.99744" font-weight="400">
       <font-face-src>
-        <font-face-name name="HelveticaNeue"/>
+        <font-face-name name="Vazir"/>
       </font-face-src>
     </font-face>
-    <font-face font-family="Helvetica Neue" font-size="15" panose-1="2 0 8 3 0 0 0 9 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="975.0061" descent="-216.99524" font-weight="700">
+    <font-face font-family="Vazir" font-size="15" panose-1="2 0 8 3 0 0 0 9 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="975.0061" descent="-216.99524" font-weight="700">
       <font-face-src>
-        <font-face-name name="HelveticaNeue-Bold"/>
+        <font-face-name name="Vazir"/>
       </font-face-src>
     </font-face>
   </defs>
@@ -28,29 +28,29 @@
       </g>
       <g id="Graphic_6">
         <text transform="translate(135.5 370.5)" fill="black">
-          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="0" y="15">پرداخت ده هزار دلار به هر </tspan>
-          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="0" y="33.448">خانواده امریکایی</tspan>
+          <tspan font-family="Vazir" font-size="16" font-weight="400" fill="black" x="0" y="15">پرداخت ده هزار دلار به </tspan>
+          <tspan font-family="Vazir" font-size="16" font-weight="400" fill="black" x="7" y="33.448">هر خانواده آمریکایی</tspan>
         </text>
       </g>
       <g id="Graphic_10">
         <text transform="translate(271 26.6)" fill="black">
-          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="0" y="15">واکسینه کردن کل جهان در برابر کرونا</tspan>
+          <tspan font-family="Vazir" font-size="16" font-weight="400" fill="black" x="0" y="15">واکسینه کردن کل جهان در برابر کرونا</tspan>
         </text>
       </g>
       <g id="Graphic_15">
         <text transform="translate(446 60.8)" fill="black">
-          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="0" y="15">انقراض مالاریا</tspan>
+          <tspan font-family="Vazir" font-size="16" font-weight="400" fill="black" x="0" y="15">انقراض مالاریا</tspan>
         </text>
       </g>
       <g id="Graphic_28">
         <text transform="translate(478 95)" fill="black">
-          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="0" y="15">تصفیه تمام بدهی های دارویی</tspan>
+          <tspan font-family="Vazir" font-size="16" font-weight="400" fill="black" x="0" y="15">تصفیه تمام بدهی‌های دارویی</tspan>
         </text>
       </g>
       <g id="Graphic_48">
         <text transform="translate(431.5 278.5)" fill="black">
-          <tspan font-family="Helvetica Neue" font-size="15" font-weight="400" fill="black" x="34.90389" y="14">باقیمانده</tspan>
-          <tspan font-family="Helvetica Neue" font-size="15" font-weight="700" fill="black" x="6.666391" y="32.42">$1,300,000,000,000</tspan>
+          <tspan font-family="Vazir" font-size="15" font-weight="400" fill="black" x="44" y="14">باقی‌مانده</tspan>
+          <tspan font-family="Vazir" font-size="15" font-weight="700" fill="black" x="15" y="32.42">$۱,۳۰۰,۰۰۰,۰۰۰,۰۰۰</tspan>
         </text>
       </g>
       <g id="Graphic_49">
@@ -70,8 +70,8 @@
       </g>
       <g id="Graphic_50">
         <text transform="translate(114 159.5508)" fill="black">
-          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="26.072" y="15">فراهم کردن آب سالم و دستشویی</tspan>
-          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="56.72" y="33.448">برای همه انسان ها</tspan>
+          <tspan font-family="Vazir" font-size="16" font-weight="400" fill="black" x="26.072" y="15">فراهم کردن آب سالم و دست‌شویی</tspan>
+          <tspan font-family="Vazir" font-size="16" font-weight="400" fill="black" x="76.72" y="33.448">برای همه انسان‌ها</tspan>
         </text>
       </g>
       <g id="Graphic_51">
@@ -79,7 +79,7 @@
       </g>
       <g id="Graphic_52">
         <text transform="translate(487.6 129.2)" fill="black">
-          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="0" y="15">مرخصی خانواده با حقوق (یک ساله)</tspan>
+          <tspan font-family="Vazir" font-size="16" font-weight="400" fill="black" x="0" y="15">مرخصی خانواده با حقوق (یک ساله)</tspan>
         </text>
       </g>
       <g id="Line_53">
